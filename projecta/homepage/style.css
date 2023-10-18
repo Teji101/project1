@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,200;0,300;1,1;1,100;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+/* * .teji-page{
+    background-image: url("./img/pexels-pixabay-355770.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+} */
+
+
+
+.img-cont{
+    background-image: url("../img/pexels-pixabay-355770.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-height: 60%;
+  
+
+}
+
+.img-cont .padding{
+    padding: 50px;
+}
+
+.text-box{
+    margin: auto;
+    margin-top: 350px;
+    background-color: #fff;
+    text-align: center;
+    padding: 150px 250px;
+    width: 62%;
+    z-index: 10;
+
+}
+
+.cap-text{
+    font-size: 25px;
+    letter-spacing: 2.5px;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing:2.5px ;
+}
+
+.text-box button{
+    border: 1px solid rgb(12, 12,24);
+    border-radius: 2px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: rgb(12, 12,54);
+    font-weight: 600;
+    font-style: oblique;
+    z-index: 10;
+
+
+}
+
+
+
+.text-box button:hover{ 
+    background-color: black;
+    color: white;
+    transition: 1s; 
+}
+
+
+/* page section */
+.page-section{
+    padding-top: 300px;
+}
+
+.btn button{
+    border: 1px solid rgb(12, 12,24);
+    border-radius: 2px;
+    padding: 8px 25px;
+    background-color: #fff;
+    color: rgb(12, 12,54);
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.btn button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+
+
+.about-img{
+   background-image: url("./img/pic2.jpg");
+   /* background-color: white; */
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* max-height: 60%; */
+    opacity: 0.4;
+}
+
+
+
+
+.content {
+    text-align: center; /* Center the text horizontally */
+    padding: 20px; /* Add some padding for readability */
+    color: black;
+   
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.content:p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+.p-head1 {
+    font-size: 20px;
+    /* Add any additional styling for your text */
+}
+
+/* About Section */
+.about{
+    padding-top: 20px;
+}
+
+.about-img {
+    background-image: url("../img/pexels-pixabay-355770.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-img .content{
+    /* padding-top: 100px; */
+    margin: 250px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content button{
+    border: 1px solid rgb(12, 12,24);
+    border-radius: 2px;
+    padding: 15px 45px;
+    /* background-color: #fff; */
+    color: rgb(38, 47, 5);
+    font-weight: 600;
+    font-style: oblique;
+    
+}
+
+.content button:hover{
+    background-color: transparent;
+    color: rgb(19, 19, 54);
+
+}
+
+.testimony .slider{
+    
+    
+}
+
+.testimony .carousel-control-prev{
+    background-color: black;
+}
+
+.testimony .carousel-control-next{
+    background-color: black;
+}
+
+/* 
+.testimony .carousel-item{
+    margin: 100px 200px;
+} */
+#contact{
+    background-color:rgb(76, 76, 136);
+}
+
+#contact label{
+    color: white;
+    font-style: italic;
+}
+
+
+#contact input{
+    background-color: rgb(76, 76, 136);
+    width: 80%;
+    height: 50px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+
+
+/* Footer page */
+
+
+
